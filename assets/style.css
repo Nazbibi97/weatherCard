@@ -1,0 +1,16 @@
+.card{
+    max-width: 400px ;
+    min-height: 500px;
+    border: 2px solid salmon;
+    border-radius: 10px;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+}
+.card img{
+    width: 400px;
+    height: 300px;
+}
+body{
+    background-color: aqua;
+}
