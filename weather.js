@@ -1,4 +1,4 @@
-var weather = ["Winter", "Cloudy", "Summer", "Spring", "Autumn", "Strom"]
+var weather = ["winter", "cloudy", "summer", "spring", "autumn", "strom"]
 var userInput = prompt (`"Enter Anyone Season You Like"\n Winter \r Cloudy \r Summer \r Spring \r Autumn \r Strom`)
 var flag = false;
 
@@ -6,7 +6,7 @@ var flag = false;
 
 //  /////  Summer
 for ( var i= 0; i < weather.length; i++){
-    if (userInput === "Summer"){
+    if (userInput.toLowerCase() === "summer"){
       flag = true
       document.write(`
         <div class="card" style="width: 20rem; height: 400px; border: 2px solid salmon;
@@ -34,7 +34,7 @@ break;
 
 // // winter
 
-  if (userInput === "Winter"){
+  if (userInput.toLowerCase() === "winter"){
     flag = true
     document.write(`
       <div class="card" style="width: 20rem; height: 400px; border: 2px solid salmon;
@@ -61,7 +61,7 @@ break;
 //  /// spring
 
 
-if (userInput === "Spring"){
+if (userInput.toLowerCase() === "spring"){
   flag = true
   document.write(`
     <div class="card" style="width: 20rem; height: 400px; border: 2px solid salmon;
@@ -87,7 +87,7 @@ break;
 }
 
 //  ///// Rainy
-if (userInput === "Rainy"){
+if (userInput.toLowerCase() === "rainy"){
   flag = true
   document.write(`
     <div class="card" style="width: 20rem; height: 400px; border: 2px solid salmon;
@@ -110,7 +110,7 @@ break;
 }
 
 //  ///  Cloudy
-if (userInput === "Cloudy"){
+if (userInput.toLowerCase() === "cloudy"){
   flag = true
   document.write(`
     <div class="card" style="width: 20rem; height: 400px; border: 2px solid salmon;
@@ -134,7 +134,7 @@ break;
 }
 
 //  ///// strom
-if (userInput === "Strom"){
+if (userInput.toLowerCase() === "strom"){
   flag = true
   document.write(`
     <div class="card" style="width: 20rem; height: 400px; border: 2px solid salmon;
@@ -158,7 +158,7 @@ break;
 
 // /// Autumn
 
-if (userInput === "Autumn"){
+if (userInput.toLowerCase() === "autumn"){
   flag = true
   document.write(`
     <div class="card" style="width: 20rem; height: 400px; border: 2px solid salmon;
